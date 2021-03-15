@@ -1,0 +1,13 @@
+
+$body-bg: gray;
+$body-color: #111;
+
+$primary: purple;
+
+//SCSS variables are declared using ( $name: value; ) syntax
+//They are used in bootstrap, so you'll need to look up which values need to change
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+//This file is applied last, so has priority over bootstrap. If you move it above the bootstrap import, it'll be overridden
+@import "./assets/scss/secondFile.scss";

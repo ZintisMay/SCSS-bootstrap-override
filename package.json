@@ -1,0 +1,19 @@
+{
+  "name": "scss-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run scss-compile",
+    "scss-compile": "node-sass -rw ./assets/scss/index.scss -o ./assets/css",
+    "watch": "npm run scss-compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "node-sass": "^5.0.0",
+    "scss-compile": "^0.1.7"
+  }
+}
